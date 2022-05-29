@@ -78,7 +78,6 @@ li {
     text-decoration: none;
 }
 
-
 .intro__main__lista__gral {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -95,23 +94,20 @@ li {
     font-size: 17px;
     text-transform: uppercase;
     color:#df0024;
-    text-decoration: underline;
-    text-align: center;
+    text-decoration: underline;   
 }
 
-            .intro__main__lista--items {
-                display: flex;
-                flex-direction: column;
-                list-style-type: none;
-                line-height: 1.7;
-                margin-top: 7px;
-                justify-content: center;
-                    li {
-                        text-align: center;
-                        margin:0 auto;
-                    }
-            }
-        
+.intro__main__lista--items {
+    list-style-type: none;
+    line-height: 1.7;
+    margin-top: 5px;
+    justify-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+
+    
 
         .intro__main__lista2 {
             display: inline-block;

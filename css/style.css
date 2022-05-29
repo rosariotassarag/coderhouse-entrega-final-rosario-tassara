@@ -127,22 +127,24 @@ ul {
 
 /* Futuros Proyectos */
 .intro-main__contenido2 {
-  background-color: #dc3545;
   opacity: 0.95;
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  color: white;
+  color: #2C3383;
   font-size: 23px;
-  font-weight: 200;
+  font-weight: 700;
 }
 
 .intro-main__contenido2--texto {
+  background-image: linear-gradient(rgb(220, 27, 27), rgb(245, 90, 90));
   line-height: 1.6;
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
-  color: black;
+  color: #F2F3F4;
   font-weight: 400;
-  margin-bottom: 5%;
+  margin: 2%;
+  padding: 2%;
+  text-align: center;
 }
 
 /* Pregrado*/
@@ -425,20 +427,15 @@ li {
   text-transform: uppercase;
   color: #df0024;
   text-decoration: underline;
-  text-align: center;
 }
 
 .intro__main__lista--items {
-  display: flex;
-  flex-direction: column;
   list-style-type: none;
   line-height: 1.7;
-  margin-top: 7px;
-  justify-content: center;
-}
-.intro__main__lista--items li {
+  margin-top: 5px;
+  justify-items: center;
   text-align: center;
-  margin: 0 auto;
+  padding: 0;
 }
 
 .intro__main__lista2 {

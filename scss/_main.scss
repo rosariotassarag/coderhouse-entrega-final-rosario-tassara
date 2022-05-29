@@ -160,24 +160,26 @@ ul {
 /* Futuros Proyectos */
 
 .intro-main__contenido2 {
-    background-color: map-get($color, color_proyectos);
+    
     opacity: 0.95;
     font-family: $tipografia_texto;
     text-align: center;
-    color:$color_publicaciones;
+    color:$color_subtitulos;
     font-size: $tamaño_texto_proyectos;
-    font-weight: 200;
+    font-weight: 700;
 }
 
 
     .intro-main__contenido2--texto{
-        background-color: map-get($color, color_proyectos_texto);
+        background-image: linear-gradient($color_1_proyectos,$color_2_proyectos);
         line-height: 1.6;
         font-size: $tamaño_texto;
         font-family: $tipografia_texto;
-        color:$color_texto;
+        color:$color_texto_proyectos;
         font-weight: 400;
-        margin-bottom: 5%;
+        margin: 2%;
+        padding:2%;
+        text-align: center;
 
     }
 
