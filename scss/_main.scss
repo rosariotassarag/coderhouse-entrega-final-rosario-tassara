@@ -15,7 +15,7 @@ $color: (color_header: #dc3545,
 
 
 main {
-    width:80%;
+    width:90%;
     margin:0 auto;
 }
 
@@ -67,8 +67,8 @@ main {
     font-size: $tamaño_subtitulos_mobile;
     color: $color_subtitulos;
     text-transform: uppercase;
-    margin-top: 50px;
-    padding-top: 15px;
+    margin-top: 3%;
+    padding-top: 2%;
     font-weight: 700;
     text-align: center;
 }
@@ -109,13 +109,13 @@ main {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap; 
-        width: 90%;
+        width: 98%;
         margin:0 auto;        
     }
 
     .card {
         width:100%;
-        margin:1%;
+        margin:3% 15%;
         text-align: center;
     }
 
@@ -134,7 +134,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 2% 3%;
+    padding: 10% 3%;
     
 }
 
@@ -148,6 +148,7 @@ ul {
 .publicaciones_links {
     color: black;
     text-decoration: none;
+    margin-top: 7%;
     
    
 }
@@ -187,16 +188,7 @@ ul {
     }
 
 
-    .comunidad_historias {
-        color: $color_publicaciones;
-        text-decoration: none;
-    }
-
-    .comunidad_historias:hover {
-        color: $color_publicaciones;
-        text-decoration: none;
-        font-weight: 700;
-    }
+    
 
 /* Pregrado*/
 
@@ -339,8 +331,34 @@ ul {
 }
 
 
+.comunidad_historias {
+    color: $color_publicaciones;
+    text-decoration: none;
+}
 
+.comunidad_historias:hover {
+    color: $color_publicaciones;
+    text-decoration: none;
+    font-weight: 700;
+}
 
+.intro-main__contenido2--comunidad {
+    background-image: linear-gradient($color_1_proyectos,$color_2_proyectos);
+        line-height: 1.6;
+        font-size: $tamaño_texto;
+        font-family: $tipografia_texto;
+        color:$color_texto_proyectos;
+        font-weight: 400;
+        margin: 2%;
+        padding:2%;
+        text-align: center;
+        animation-name: efecto_brillo;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        width:100%;
+
+}
 
 
 .row__textoCostado {
@@ -365,6 +383,11 @@ ul {
 
 /*Media Queries para Desktop*/
 @media (min-width: 576px){
+    main {
+        width:80%;
+        margin:0 auto;
+    }
+
     .video_youtube {
         @include size_img(600px,100%);
     }
@@ -410,6 +433,10 @@ ul {
          
     }
 
+    .intro-main__contenido2--comunidad {
+        width: 45%;
+    }
+
     #contenedor_novedades_imagenes{
         display: flex;
         flex-direction: row;
@@ -444,7 +471,7 @@ ul {
         font-size: $tamaño_subtitulos;
         color: $color_subtitulos;
         text-transform: uppercase;
-        margin-top: 30px;
+        margin-top: 0.5%;
         font-weight: 700;
     }
 

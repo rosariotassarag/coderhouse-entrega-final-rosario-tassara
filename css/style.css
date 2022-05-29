@@ -11,7 +11,7 @@ a ul li {
 }
 
 main {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -53,8 +53,8 @@ main {
   font-size: 15px;
   color: #2C3383;
   text-transform: uppercase;
-  margin-top: 50px;
-  padding-top: 15px;
+  margin-top: 3%;
+  padding-top: 2%;
   font-weight: 700;
   text-align: center;
 }
@@ -91,13 +91,13 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 90%;
+  width: 98%;
   margin: 0 auto;
 }
 
 .card {
   width: 100%;
-  margin: 1%;
+  margin: 3% 15%;
   text-align: center;
 }
 
@@ -112,7 +112,7 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 2% 3%;
+  padding: 10% 3%;
 }
 
 ul {
@@ -123,6 +123,7 @@ ul {
 .publicaciones_links {
   color: black;
   text-decoration: none;
+  margin-top: 7%;
 }
 
 .publicaciones_links:hover {
@@ -153,17 +154,6 @@ ul {
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-duration: 5s;
-}
-
-.comunidad_historias {
-  color: white;
-  text-decoration: none;
-}
-
-.comunidad_historias:hover {
-  color: white;
-  text-decoration: none;
-  font-weight: 700;
 }
 
 /* Pregrado*/
@@ -291,6 +281,34 @@ ul {
   justify-content: space-between;
 }
 
+.comunidad_historias {
+  color: white;
+  text-decoration: none;
+}
+
+.comunidad_historias:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.intro-main__contenido2--comunidad {
+  background-image: linear-gradient(rgb(220, 27, 27), rgb(245, 90, 90));
+  line-height: 1.6;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: #F2F3F4;
+  font-weight: 400;
+  margin: 2%;
+  padding: 2%;
+  text-align: center;
+  animation-name: efecto_brillo;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  width: 100%;
+}
+
 /* VIDEO */
 .video_youtube {
   height: 200px;
@@ -299,6 +317,11 @@ ul {
 
 /*Media Queries para Desktop*/
 @media (min-width: 576px) {
+  main {
+    width: 80%;
+    margin: 0 auto;
+  }
+
   .video_youtube {
     height: 600px;
     width: 100%;
@@ -343,6 +366,10 @@ ul {
     line-height: 1.5rem;
   }
 
+  .intro-main__contenido2--comunidad {
+    width: 45%;
+  }
+
   #contenedor_novedades_imagenes {
     display: flex;
     flex-direction: row;
@@ -375,7 +402,7 @@ ul {
     font-size: 22px;
     color: #2C3383;
     text-transform: uppercase;
-    margin-top: 30px;
+    margin-top: 0.5%;
     font-weight: 700;
   }
 
@@ -590,6 +617,7 @@ header {
   text-align: center;
   background-color: #dc3545;
   font-family: "Montserrat", sans-serif;
+  padding-right: 7%;
 }
 header .navbar {
   display: flex;
