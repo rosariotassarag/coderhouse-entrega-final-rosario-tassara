@@ -148,6 +148,36 @@ body {
     }
   }
 
+    @keyframes opacity_imagen {
+
+        0% { opacity:0.3;
+        }
+    
+        50% { opacity:0.7;
+        }
+      
+        100% {opacity:1;
+        }
+    
+  }
+
+  @keyframes efecto_brillo {
+
+    0% { background-image: linear-gradient($color_2_proyectos,$color_1_proyectos)
+    }
+    
+    
+
+    100% { background-image: linear-gradient($color_1_proyectos,$color_2_proyectos)
+    }
+
+
+}
+
+
+
+
+
  
 
 .imagen3 {
@@ -169,6 +199,8 @@ body {
 
 @import "header";
 @import "footer";
+
+
 
 
 
