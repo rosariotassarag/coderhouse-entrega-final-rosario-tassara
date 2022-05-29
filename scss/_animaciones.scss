@@ -1,0 +1,96 @@
+/*ANIMACIONES*/
+
+@keyframes animar_texto {
+    0% { color:#df0024;
+
+        transform: translateX(150px);
+    }
+
+    100% {color:#2C3383;
+    transform: translateX(0px);
+                    }      
+    
+   
+    100% {
+      color:#2C3383;
+     
+    }
+  }
+
+  @keyframes animar_texto_equipo {
+    0% { color:#df0024;
+
+        
+    }
+
+    50% {color:azure;
+   
+                    }      
+    
+
+    100% {
+      color:#2C3383;
+    
+     
+    }
+  }
+
+    @keyframes opacity_imagen {
+
+        0% { opacity:0.3;
+        }
+    
+        50% { opacity:0.7;
+        }
+      
+        100% {opacity:1;
+        }
+    
+  }
+
+  @keyframes efecto_brillo {
+
+    0% { background-image: linear-gradient($color_2_proyectos,$color_1_proyectos)
+    }
+    
+    
+
+    100% { background-image: linear-gradient($color_1_proyectos,$color_2_proyectos)
+    }
+
+
+}
+
+/*Transicion*/
+
+.TextoBtn  {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding:40%;
+    opacity: 0; 
+}
+
+.TextoBtn:hover {
+    position: absolute;
+    top: 130px;
+    left: 35%;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: black;
+    padding: 3%;
+    opacity: 1;  
+    text-decoration: none;
+    transition: all;
+}
+
+
+
+
+.nav__link:hover {
+    background-size: 100% 1.5px;
+}

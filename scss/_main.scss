@@ -14,10 +14,7 @@ $color: (color_header: #dc3545,
          color_publicaciones:#5d63ac);
 
 
-main {
-    width:90%;
-    margin:0 auto;
-}
+
 
 
 /* Titulo Home General*/
@@ -28,6 +25,23 @@ main {
     text-shadow: 1px 1px #A0A2A3;
     text-align: center;
     margin-top: 5%;
+    
+}
+
+.intro-main__contenido__titulo {
+    position: absolute;
+    bottom: -100px;
+    left: 580px;
+    color:$color_titulo_general;
+    font-size: $tamaño_titulo_general_mobile;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 0.9;
+    padding: 8rem 0;
+    text-align:left;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 1px 1px 2px rgb(143, 139, 139);
+    
     
 }
 
