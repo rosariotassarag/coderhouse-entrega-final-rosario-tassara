@@ -230,11 +230,16 @@ ul {
   font-family: "Montserrat", sans-serif;
   font-size: 10px;
   margin: 2% 0;
+  padding: 0;
+  transform: translate(0px, -50px);
+  color: black;
+  font-weight: 700;
 }
 
 .convenios_container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   overflow: hidden;
   height: 80%;
@@ -243,11 +248,21 @@ ul {
 
 .convenios {
   padding: 2% 3%;
+  text-align: center;
+  margin: 0;
+}
+
+.convenios:hover {
+  opacity: 0.7;
+  background-image: url("imagenes\equipo_6.jpeg");
 }
 
 .img__convenio {
   height: 80%;
   width: 100%;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
 }
 
 /* Comunidad */
@@ -272,7 +287,7 @@ ul {
 
   .convenios__texto {
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     margin: 2% 0;
   }
 
@@ -346,7 +361,57 @@ ul {
   .titulo_general_mobile_dos {
     display: none;
   }
+
+  .convenios_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    height: 80%;
+    width: 100%;
+  }
 }
+/*Quienes Somos*/
+/*listas*/
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.intro__main__lista__gral {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  list-style-type: none;
+  padding-bottom: 50px;
+}
+
+.intro__main__lista {
+  display: inline-block;
+  padding: 5px 10%;
+}
+
+.intro__main__lista__titulo {
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #df0024;
+  text-decoration: underline;
+}
+
+.intro__main__lista--items {
+  list-style-type: none;
+  line-height: 1.7;
+  margin-top: 5px;
+  justify-items: center;
+  text-align: center;
+  padding: 0;
+}
+
+.intro__main__lista2 {
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+}
+
 img {
   max-width: 100%;
 }
@@ -402,46 +467,6 @@ body {
   font-family: "Lato", sans-serif;
   text-shadow: 1px 1px 2px rgb(143, 139, 139);
   animation: animar_texto 2s ease;
-}
-
-/*listas*/
-li {
-  list-style: none;
-  text-decoration: none;
-}
-
-.intro__main__lista__gral {
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  list-style-type: none;
-  padding-bottom: 50px;
-}
-
-.intro__main__lista {
-  display: inline-block;
-  padding: 5px 10%;
-}
-
-.intro__main__lista__titulo {
-  font-size: 17px;
-  text-transform: uppercase;
-  color: #df0024;
-  text-decoration: underline;
-}
-
-.intro__main__lista--items {
-  list-style-type: none;
-  line-height: 1.7;
-  margin-top: 5px;
-  justify-items: center;
-  text-align: center;
-  padding: 0;
-}
-
-.intro__main__lista2 {
-  display: inline-block;
-  padding: 5px;
-  text-align: center;
 }
 
 /*Transicion*/

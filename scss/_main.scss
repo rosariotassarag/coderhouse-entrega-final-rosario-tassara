@@ -275,11 +275,16 @@ ul {
     font-family: $tipografia_texto;
     font-size: $tamaño_texto_convenio_1;
     margin:2% 0;
+    padding: 0;
+    transform:translate(-0px,-50px); 
+    color: black;
+    font-weight: 700;  
 }
 
 .convenios_container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     overflow: hidden;
     @include size_img(80%,100%);
@@ -287,13 +292,29 @@ ul {
 
 .convenios {
     padding: 2% 3%;
+    text-align: center;
+    margin:0;
+}
+
+
+.convenios:hover {
+    opacity: 0.7;
+    background-image: url("imagenes\equipo_6.jpeg");
     
 }
 
+
 .img__convenio {
     @include size_img(80%,100%);
+    opacity: 0.8;
+    margin: 0;
+    padding: 0;
     
 }
+
+
+
+
 
 /* Comunidad */
 
@@ -411,6 +432,57 @@ ul {
     .titulo_general_mobile_dos {
         display: none;
     }
+
+    .convenios_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        overflow: hidden;
+        @include size_img(80%,100%);
+    }
     
 
 }
+
+/*Quienes Somos*/
+/*listas*/
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.intro__main__lista__gral {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    list-style-type: none;
+    padding-bottom: 50px;
+}
+
+ .intro__main__lista {
+    display: inline-block;
+    padding: 5px  10%;
+ }   
+            
+.intro__main__lista__titulo {
+    font-size: 17px;
+    text-transform: uppercase;
+    color:#df0024;
+    text-decoration: underline;   
+}
+
+.intro__main__lista--items {
+    list-style-type: none;
+    line-height: 1.7;
+    margin-top: 5px;
+    justify-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+
+        .intro__main__lista2 {
+            display: inline-block;
+            padding: 5px ;  
+            text-align: center;
+        }
