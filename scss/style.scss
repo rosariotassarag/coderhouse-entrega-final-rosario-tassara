@@ -100,10 +100,12 @@ li {
 }
 
             .intro__main__lista--items {
+                display: flex;
+                flex-direction: column;
                 list-style-type: none;
                 line-height: 1.7;
                 margin-top: 7px;
-                text-align: center;
+                justify-content: center;
                     li {
                         text-align: center;
                         margin:0 auto;

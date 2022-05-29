@@ -47,17 +47,20 @@
           
                                   
           <!--Menú de Navegación -DESKTOP -->       
-            <nav class="navbar"> 
+          <nav class="navbar"> 
+              <div class="nav__logo">
+                <a href="index.html">
+                  <img src="imagenes/logo_final.png" alt="logo" class="nav_img_logo">
+                </a>
+                <div class="nav_decr_logo">
+                  Equipo de Docencia <br>
+                  Hospital de Niños<br> 
+                  Debilio Blanco Villegas
+                </div>
+              </div>
+
+                         
               <ul class="nav__list">
-                  <li class="nav__item"> 
-                    <a href="index.html">
-                      <img src="imagenes/logo_final.png" alt="logo" class="img_logo">
-                    </a>
-                  </li>
-                  <li class="nav__item">Equipo de Docencia <br> Hospital de Niños<br> Debilio Blanco Villegas</li>
-                  <li class="nav__item"></li>
-                  
-                  <li class="nav__item"></li>
                   <li class="nav__item"> <a class="nav__link" href="index.html">Home</a></li>
                   <li class="nav__item">  <a class="nav__link" href="quienessomos.html">Quienes Somos</a></li>
                   <li class="nav__item">  <a class="nav__link" href="pregrado.html">Pregrado</a></li>
@@ -65,9 +68,10 @@
                   <li class="nav__item">  <a class="nav__link" href="comunidad.html">Comunidad</a></li>
                   <li class="nav__item">  <a class="nav__link" href="biblioteca.html">Biblioteca</a></li>        
               </ul>
-            </nav>
+               
+          </nav>
           
-      </header> 
+        </header> 
 
       <!--Menú de Navegación - MOBILE-->
       <div class="navbar-mobile"> 
@@ -115,7 +119,7 @@
       </div>
       <div class="carousel-inner"> 
           <div class="carousel-item active">
-            <img src="imagenes/portada_proyecto_hospital_adaptada.jpg" class="d-block w-500 ratio" alt="portada_proyecto_hospital">
+            <img src="imagenes/portada_proyecto_hospital_adaptada.jpg" class="d-block w-500 ratio" alt="portada_proyecto_hospital" style="height:100%">
               <div class="carousel-caption d-none d-md-block">
                   <h1 class="titulo_general">EQUIPO DE DOCENCIA</h1>
                       <h2 class="fs-2 text-capitalize text-white">Hospital de niños de Tandil</h2>
@@ -123,13 +127,13 @@
           </div>
 
         <div class="carousel-item">
-          <img src="imagenes/equipo_2_bs.jpg" class="d-block w-100" alt="...">
+          <img src="imagenes/portada_proyecto_hospital_3_adaptada.jpg" class="d-block w-100" style="height:100%">
           <div class="carousel-caption d-none d-md-block">
             
           </div>
         </div>
         <div class="carousel-item">
-          <img src="imagenes/Frente_hospital_dbv_2.png" class="d-block w-100" alt="...">
+          <img src="imagenes/Frente_hospital_dbv_2.png" class="d-block w-100" style="height:100%">
           <div class="carousel-caption d-none d-md-block">
             
           </div>
@@ -183,91 +187,98 @@
   
   
      <!--NOVEDADES-->  
+      <div id="contenedor_general">
+        <div id="contenedor_novedades">
+            <h2 class="titulos text-center fs-2 font-weight-normal text-light fx-2 pt-4">
+                NOVEDADES
+            </h2>
+            <p class="titulo_novedades">Enterate de todo lo nuevo</p>
+            <div id="contenedor_novedades_imagenes">
+                
+              <div class="card" >
+                <img src="imagenes/novedades1.jpeg" class="card-img-top" style="max-height:94px;width:100%" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fs-6">Donación de la cruz roja  <br>filial Tandil </h5>
+                  <p class="card-text fs-9"></p>
+                  <a href="http://sisptandil.gob.ar/n/la-cruz-roja-filial-tandil-realizo-una-donacion-al-s.i.s.p./120" class="btn btn-primary">Conocé más</a>
+                </div>
+              </div> 
 
-     <div id="contenedor_novedades">
-        <h2 class="titulos text-center fs-2 font-weight-normal text-light fx-2 py-4">
-            NOVEDADES
-        </h2>
-        <div id="contenedor_novedades_imagenes">
-            
-            <div class="contenedor_novedades__card" style="width: 18rem;">
-                <a href="http://sisptandil.gob.ar/n/la-cruz-roja-filial-tandil-realizo-una-donacion-al-s.i.s.p./120">
-                    <img src="imagenes/novedades1.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <p class="card-text text-black">Donación de la cruz roja <br>filial Tandil</p>
-                    </div>
-                </a>
+              <div class="card">
+                <img src="imagenes/novedades2.jpeg" class="card-img-top" style="max-height:94px;width:100%" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fs-6">Nuevo centro de salud "Barrio Palermo"</h5>
+                  <p class="card-text fs-9"></p>
+                  <a href="http://sisptandil.gob.ar/n/el-sabado-quedara-inaugurado-el-nuevo-edificio-del-centro-de-salud-de-palermo/119" class="btn btn-primary">Conocé más</a>
+                </div>
+              </div> 
+              
+
+              <div class="card">
+                <img src="imagenes/novedades3.png" class="card-img-top" style="max-height:94px;width:100%"  alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fs-6">Publicaciones: <br> Nueva revista del hospital</h5>
+                  <p class="card-text fs-9"></p>
+                  <a href="https://www.medicinainfantil.org.ar/" class="btn btn-primary">Conocé más</a>
+                </div>
+              </div> 
+
+              <div class="card" >
+                <img src="imagenes/novedades4.png" class="card-img-top" style="max-height:94px;width:100%"  alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fs-6">Jornadas de salud ambiental a partir de Julio</h5>
+                  <p class="card-text fs-3"></p>
+                  <a href="https://www.garrahan.gov.ar/salud-ambiental/contenidos/salud-ambiental" class="btn btn-primary">Conocé más</a>
+                </div>
+              </div> 
+
+              <div class="card">
+                <img src="imagenes/novedades6.png" class="card-img-top" style="max-height:94px;width:100%"  alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fs-6">Jornadas de concientización sobre el Dengue</h5>
+                  <p class="card-text fs-9"></p>
+                  <a href="https://www.garrahan.gov.ar/sin-mosquito-no-hay-dengue/contenidos/sin-mosquito-no-hay-dengue-prevenir-es-la-tarea" class="btn btn-primary">Conocé más</a>
+                </div>
+              </div> 
+
             </div>
-
-            <div class="contenedor_novedades__card" style="width: 18rem;">
-                <a href="http://sisptandil.gob.ar/n/el-sabado-quedara-inaugurado-el-nuevo-edificio-del-centro-de-salud-de-palermo/119">
-                    <img src="imagenes/novedades2.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <p class="card-text text-black">Conocé el nuevo centro de salud "Barrio Palermo"</p>
-                    </div>
-                </a>
-            </div>
-
-            <div class="contenedor_novedades__card" style="width: 18rem;">
-                <a href="https://www.medicinainfantil.org.ar/">
-                    <img src="imagenes/novedades3.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <p class="card-text text-black">Colección de revistas <br> Hospital de niños Tandil</p>
-                    </div>
-                </a>
-            </div>
-
-            <div class="contenedor_novedades__card" style="width: 18rem;">
-                <a href="https://www.garrahan.gov.ar/salud-ambiental/contenidos/salud-ambiental">
-                    <img src="imagenes/novedades4.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <p class="card-text text-black">Jornada de salud ambiental <br> Hospital de niños de Tandil</p>
-                    </div>
-                </a>
-            </div>
-
-            <div class="contenedor_novedades__card" style="width: 18rem;">
-                <a href="https://www.garrahan.gov.ar/sin-mosquito-no-hay-dengue/contenidos/sin-mosquito-no-hay-dengue-prevenir-es-la-tarea">
-                    <img src="imagenes/novedades6.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <p class="card-text text-black text-danger">Jornada de conciencia sobre el Dengue</p>
-                    </div>
-                </a>
-            </div>
-
         </div>
-     </div>
-      
+        
 
-      <!--PUBLICACIONES-->
-      <div  id="publicaciones">
-          <h2 class="titulos text-white text-uppercase fs-2 pt-5 pb-1">publicaciones y revistas
-          </h2>
+          <!--PUBLICACIONES-->
+          <div  id="publicaciones">
+              <h2 class="titulos text-white text-uppercase fs-2 pt-5 pb-1">publicaciones y revistas
+              </h2>
 
-          <ul class="publicaciones_lista pt-2 pb-1"> 
-              <a href="https://drive.google.com/file/d/1PY-_IbAnPnuNXgHp2fZJUaRLgsDC2FSn/view">
-                  <li class="publicaciones_links text-white fs-6 text-center">1er Revista Hospital de Niños <br> "El Hospital y la Gente"</li>
-              </a>
+              <ul class="publicaciones_lista pt-2 pb-1"> 
+                  <a href="https://drive.google.com/file/d/1PY-_IbAnPnuNXgHp2fZJUaRLgsDC2FSn/view">
+                      <li class="publicaciones_links text-white fs-6 text-center">1er Revista Hospital de Niños <br> "El Hospital y la Gente"</li>
+                  </a>
 
-              <a href="https://drive.google.com/file/d/1PY-_IbAnPnuNXgHp2fZJUaRLgsDC2FSn/view">
-                  <li class="publicaciones_links text-white fs-6 text-center">2nda Revista Hospital de Niños <br>Año 2018</li>
-              </a>
+                  <a href="https://drive.google.com/file/d/1PY-_IbAnPnuNXgHp2fZJUaRLgsDC2FSn/view">
+                      <li class="publicaciones_links text-white fs-6 text-center">2nda Revista Hospital de Niños <br>Año 2018</li>
+                  </a>
 
-              <a href="https://drive.google.com/file/d/1PY-_IbAnPnuNXgHp2fZJUaRLgsDC2FSn/view">
-                  <li class="publicaciones_links text-white fs-6 text-center">3er Revista Hospital de Niños <br> Año 2019</li>
-              </a>
+                  <a href="https://drive.google.com/file/d/1PY-_IbAnPnuNXgHp2fZJUaRLgsDC2FSn/view">
+                      <li class="publicaciones_links text-white fs-6 text-center">3er Revista Hospital de Niños <br> Año 2019</li>
+                  </a>
 
-              <a href="https://drive.google.com/file/d/1PY-_IbAnPnuNXgHp2fZJUaRLgsDC2FSn/view">
-                  <li class="publicaciones_links text-white fs-6 text-center">4ta Revista Hospital de Niños <br> Año 2020</li>
-              </a>
+                  <a href="https://drive.google.com/file/d/1PY-_IbAnPnuNXgHp2fZJUaRLgsDC2FSn/view">
+                      <li class="publicaciones_links text-white fs-6 text-center">4ta Revista Hospital de Niños <br> Año 2020</li>
+                  </a>
 
-              <a href="https://drive.google.com/file/d/1PY-_IbAnPnuNXgHp2fZJUaRLgsDC2FSn/view">
-                  <li class="publicaciones_links text-white fs-6 text-center">5nda Revista Hospital de Niños <br> Año 2021</li>
-              </a>
-              <a href="https://drive.google.com/file/d/1PY-_IbAnPnuNXgHp2fZJUaRLgsDC2FSn/view">
-                  <li class="publicaciones_links text-white fs-6 text-center">6ta Revista Hospital de Niños <br> Año 2022</li>
-              </a>
-          </ul>
+                  <a href="https://drive.google.com/file/d/1PY-_IbAnPnuNXgHp2fZJUaRLgsDC2FSn/view">
+                    <li class="publicaciones_links text-white fs-6 text-center">5ta Revista Hospital de Niños <br> Año 2021</li>
+                </a>
+
+                <a href="https://drive.google.com/file/d/1PY-_IbAnPnuNXgHp2fZJUaRLgsDC2FSn/view">
+                    <li class="publicaciones_links text-white fs-6 text-center">6ta Revista Hospital de Niños <br> Año 2022</li>
+                </a>
+
+                 
+                  
+              </ul>
+          </div>
       </div>
           
   
@@ -283,15 +294,17 @@
     <div class="container">
       <div class="row">
         <div class="col-sm">
-          <img class="img_foto_uno_efecto " src="imagenes/equipo_hospital.jpg"  alt="equipo">
+          <img class="img_foto_uno_efecto mt-1 mb-2" src="imagenes/equipo_hospital.jpg"  alt="equipo">
               <!--<a class="TextoBtn" href="quienessomos.html">Equipo</a>-->
+              <p> El Servicio recibe residentes y becarios del todo el país. Se dictan cursos de crecimiento y desarrollo en distintas instituciones y provincias.
+              </p>
 
         </div>
 
         <div class="col-sm">
-          <img class="img_foto_uno_efecto mt-1" src="imagenes/hospital_trabajando_2.jpg"  alt="hospital_trabajo">
+          <img class="img_foto_uno_efecto mt-1 mb-2" src="imagenes/hospital_trabajando_2.jpg"  alt="hospital_trabajo">
           <!--<a class="TextoBtn" href="comunidad.html">Comunidad</a>-->
-
+          <p> Clases sobre evaluación del crecimiento a alumnos del Departamento de Pediatría. Se celebran anualmente Jornadas Nacionales, con participación de profesionales de todo el país y del extranjero  </p>
         </div>
         
       </div>
