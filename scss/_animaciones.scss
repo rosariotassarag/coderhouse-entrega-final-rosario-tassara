@@ -18,20 +18,15 @@
   }
 
   @keyframes animar_texto_equipo {
-    0% { color:#df0024;
-
-        
+    0% { color:#df0024;  
     }
 
     50% {color:azure;
-   
-                    }      
+    }      
     
 
     100% {
-      color:#2C3383;
-    
-     
+      color:#2C3383;   
     }
   }
 
@@ -52,12 +47,9 @@
 
     0% { background-image: linear-gradient($color_2_proyectos,$color_1_proyectos)
     }
-    
-    
 
     100% { background-image: linear-gradient($color_1_proyectos,$color_2_proyectos)
     }
-
 
 }
 
@@ -87,9 +79,6 @@
     text-decoration: none;
     transition: all;
 }
-
-
-
 
 .nav__link:hover {
     background-size: 100% 1.5px;
